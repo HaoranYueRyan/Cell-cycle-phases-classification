@@ -8,12 +8,12 @@ Cell cycle mechanism plays a major part in cancer development and understanding 
  
  In this pipeline, the imaging data were collected from Dr Helfrid Hochegger’s laboratory. All images were stored on an OMERO server (OMERO 5.7.0) and accessed via the Opero-Python API. The data_generate.ipynb can generate the data set consist of 4 phase cell cycle, G1, S, G2, M.
  
- #  training the model 
+ # Training the model 
  
- Here, we have taining the CNN, ResNet and Efficeint model with dataset. In the comparison of these model, the ResNet model have better apperance. All the model and traing py file are already upload on this project.
+ Here, we have tained the CNN, ResNet and Efficeint models with the dataset. By comparing these models, the ResNet model has better apperance. All the models and traing py files have upload on this project.
 
 # Dependencies
 
 Windows and Mac Os are supported for running the code. For training the model with MPS, you will need a Mac Os with M1. All the code has been steady tested on MAC Os.
 
-For the segmentation part, you can install the Cellpose with GUI call `python -m pip install 'cellpose[gui]', which can easily manually label the cell to get more pricesly cellpose model. 
+For the segmentation part, you can install the Cellpose with GUI call `python -m pip install 'cellpose[gui]', which can easily manual label the cell to get more pricesly cellpose model. 
